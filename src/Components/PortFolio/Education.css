@@ -1,0 +1,72 @@
+.eduContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    color: wheat;
+    font-size: larger;
+    
+  }
+  .degree{
+    align-self: center;
+    margin-bottom: 20px;
+  }
+  .eduTitle{
+    border-bottom: 1px solid black;
+    width: 90%;
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    
+  }
+  .eduDetail{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    align-items: center;
+    padding-top: 40px;
+  }
+  .eduSingle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 265px;
+    /* width: 140px;
+    height: 140px; */
+    margin: 10px;
+    background-color: black;
+    padding: 5px;
+  }
+  .fscMatric{
+    display: flex;
+  }
+  .bsc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .yearGpa{
+    display: flex;
+    width: 100%;
+
+    justify-content: space-between;
+
+    
+  }
+  .eduTop{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+}
+.projectsUl{
+  width: max-content;
+
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+}
