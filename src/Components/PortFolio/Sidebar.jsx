@@ -12,7 +12,7 @@ function Sidebar(props) {
             <img src={imgUrl} alt="pic" className="profilepic" />
 
             <h2 className="name">Muhammad Waqas</h2>
-            <h5 className="title">Frontend developer</h5>
+            <h5 className="title">Jr. Frontend developer</h5>
             
             <a href="#home" className="Link">Home</a>
             <a href="#about" className="Link">About</a>

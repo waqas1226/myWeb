@@ -13,11 +13,11 @@ function Projects(props) {
 
     const Projects = [
         {
-            title: 'Hotel Booking App design',
-            desc: 'Hotal Booking app is designed in React Js. In this project a beutiful UI is designed which contains multiple travel options including a search feature with daterange. This is just a UI interface and i have intention to improve this practice project by creating backend with use of Mongo Db, Node Js, Express js & Firebase.  ',
+            title: 'Hotel Booking App',
+            desc: 'Hotal Booking app is designed in React Js. In this project a beutiful UI is designed which contains multiple options including a search feature with daterange. Whenever a user write destination and select date range, related data fetched from MongoDb and displayed. User can check availability and reserve rooms after login. Also, Admin dashboard integrated with this for display the Hotels, Rooms and users and updating in database',
             libraries: 'React Js, Material UI, React router dom, react-daterange, CSS',
             sources: 'Lama dev Youtube channel',
-            coding: '80% self coded, 20% copied ',
+            coding: '60% self coded, 40% copied ',
             vid:'https://firebasestorage.googleapis.com/v0/b/inotebook-94faa.appspot.com/o/BookingApp.mp4?alt=media&token=a58e1086-b8ba-4160-949d-474d7637bd80'
         },
         {
