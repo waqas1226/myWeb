@@ -14,8 +14,8 @@ function Projects(props) {
     const Projects = [
         {
             title: 'Hotel Booking App',
-            desc: 'Hotal Booking app is designed in React Js. In this project a beutiful UI is designed which contains multiple options including a search feature with daterange. Whenever a user write destination and select date range, related data fetched from MongoDb and displayed. User can check availability and reserve rooms after login. Also, Admin dashboard integrated with this for display the Hotels, Rooms and users and updating in database',
-            libraries: 'React Js, Material UI, React router dom, react-daterange, CSS',
+            desc: 'Hotal Booking app is designed in React Js. In this project a beutiful UI is designed which contains multiple options including a search feature with daterange. Whenever a user write destination and select date range and click "search" button, related data fetched from MongoDb and displayed. User can check availability and reserve rooms after login. Also, Admin dashboard integrated with this for display the Hotels, Rooms and users and updating in database',
+            libraries: 'MERN stack, React Js, Material UI, React router dom, react-daterange, CSS',
             sources: 'Lama dev Youtube channel',
             coding: '60% self coded, 40% copied ',
             vid:'https://firebasestorage.googleapis.com/v0/b/inotebook-94faa.appspot.com/o/BookingApp.mp4?alt=media&token=a58e1086-b8ba-4160-949d-474d7637bd80'
@@ -62,7 +62,7 @@ function Projects(props) {
             <div className="projects">
                 {
                     Projects.map((item, i) =>
-                        <Accordion key={i} className='a'>
+                        <Accordion key={i} className='acc'>
                             <Accordion.Item style={{ width: '100%' }} eventKey="0">
                                 <Accordion.Header style={mystyle}>{item.title}</Accordion.Header>
                                 <Accordion.Body style={mystyle}>

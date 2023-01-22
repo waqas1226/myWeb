@@ -1,63 +1,67 @@
 .aboutContainer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 800px;
-    color: wheat;
-  }
-  .aboutTitle{
-    border-bottom: 1px solid black;
-    width: 90%;
-    font-size: bold;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: 700;
-    font-size:x-large;
-    padding: 20px;
-    
-  }
-  .bottom{
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-    align-items: center;
-  }
-  .myInfodiv{
-    display: flex;
-    flex-direction:column;
-    gap: 20px;
-    padding: 20px;
-  }
-  .myInfo{
-    display: flex;
-    gap: 20px;
-  }
-  .value{
-    color:orange;
-  }
-  .download{
-    border: 2px solid black;
-    border-radius:10px;
-    padding: 5px;
-    color: wheat;
-    background-color: rgb(29, 28, 28);
-    text-decoration: none;
-  }
-  .career{
-    display: flex;
-    gap: 10px;
-    flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: max-content;
+  color: wheat;
+  
+}
+.aboutTitle{
+  border-bottom: 1px solid black;
+  width: 90%;
+  font-size: bold;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size:x-large;
+  padding: 20px;
+  
+}
+.bottom{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  align-items: center;
+}
+.myInfodiv{
+  display: flex;
+  flex-direction:column;
+  gap: 20px;
+  padding: 20px;
+}
+.myInfo{
+  display: flex;
+  gap: 20px;
+}
+.value{
+  color:orange;
+}
+.download{
+  border: 2px solid black;
+  border-radius:10px;
+  padding: 5px;
+  color: wheat;
+  background-color: rgb(29, 28, 28);
+  text-decoration: none;
+}
+.career{
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
 
-  }
-  .careerlist{
-    border: 1px solid black;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 140px;
-    height: 140px;
-    margin: 10px;
-    padding: 5px;
-  }
+}
+.careerlist{
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 140px;
+  height: 140px;
+  margin: 10px;
+  padding: 5px;
+}
+.bottom > p{
+  text-align: justify;
+}

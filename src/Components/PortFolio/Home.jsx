@@ -6,11 +6,11 @@ import Projects from './Projects';
 
 function Home(props) {
     return (
-        <div id='home'>
+        <div className='home'>
             <Intro/>
             <About/>
-            <Education/>
             <Projects/>
+            <Education/>
         </div>
     );
 }

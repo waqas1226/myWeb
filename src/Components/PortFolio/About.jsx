@@ -1,3 +1,4 @@
+import { Download } from '@mui/icons-material';
 import React from 'react';
 import './About.css';
 
@@ -15,26 +16,28 @@ function About(props) {
     <div className="myInfo">Name:<span className="o">Muhammad Waqas</span></div>
     {/* <div className="myInfo">Status:<span className="o">Beginner Frontend Developer</span></div> */}
     <div className="myInfo">Email:<span className="o">engr.waqas12@gmail.com</span></div>
-    <div className="myInfo">Mobile no.:<span className="o">+92 340-5661226</span></div>
+    <div className="myInfo">Mobile no.:<span className="o">+92 307-5541483</span></div>
     <div className="myInfo">City:<span className="o">Lahore</span></div>
     <div className="myInfo">Address:<span className="o">House # 502K Al Rahman Garden phase 2 Lahore</span></div>
+    <div className="myInfo">Github:<a className="o" href='https://github.com/waqas1226'>https://github.com/waqas1226</a></div>
     
-    <a href="https://firebasestorage.googleapis.com/v0/b/inotebook-94faa.appspot.com/o/My%20Resume.pdf?alt=media&token=6052bbb0-33af-4ce5-b4c2-3286c932369f" download="dff" className='download'>Download CV</a>
+    <a href="https://firebasestorage.googleapis.com/v0/b/inotebook-94faa.appspot.com/o/My%20Resume.pdf?alt=media&token=6052bbb0-33af-4ce5-b4c2-3286c932369f" download="dff" className='download'>Download CV <Download/></a>
   </div>
   <p>
 
   I am graduated from UET Taxila in BSc Electronics Engineering. 
   I started my career as Electronics Engineer in 2016 in Rupali polyester ltd(A petrochemical plant) and 
   promoted as AM Electronics in 2021. 
-  My major responsibilities are to supervise Maintenance and trooubleshooting activities at plant, more then this 
+  My major responsibilities are to supervise Maintenance and Problem solving activities at plant, more then this 
   i am responsible to manage staff for routine work and manage the procurment of new parts and produce related documentation.
   </p>
 <br/>
 <p>
-To gain some extra skills I learned React Js, Html, CSS, JavaScript, Bootstrap, Material UI, MERN stack & Firebase with the help 
-of famous Youtube Channels like  "Code with Harry", "Codevolution","Lama dev" and 
-websites like "Stack Overflow", "W3 Schools", "React documentation", "dmitripavlutin.com" etc. I started learning Html,CSS, Javascript and 
-after having some reasonable knowledge, began to learn most famous JavaScript UI library 'React Js'. I also have some basic level skills in MERN stack and firebase.    
+I am a self-taught beginner ReactJS developer with a passion for web development. 
+To gain extra skills and knowledge, I turned to various resources such as YouTube channels like Code with Harry, Codevolution, Lama dev, and freeCodeCamp, as well as websites like Stack Overflow, W3 Schools, MDN Web Docs, and official documentation. 
+Through these resources, I learned HTML, CSS, JavaScript, Bootstrap, Material UI, and the basics of the MERN stack and Firebase.
+ My journey began with HTML, CSS and JavaScript, and later I moved on to learn ReactJs, which is one of the most popular JavaScript UI library. 
+ I am excited to continue learning and building my skills as a developer and am dedicated to staying up-to-date with the latest technologies and best practices in the field.  
 </p>
 </div>
 
