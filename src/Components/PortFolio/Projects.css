@@ -10,6 +10,8 @@
 
 }
 .projects{
+    width: 100%;
+    padding: 20px;
     width: 90%;
     padding: 30px;
    display: flex;
