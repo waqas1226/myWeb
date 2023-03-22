@@ -4,7 +4,6 @@
     align-items: center;
     min-height: 100vh;
     color: wheat;
-    font-size: larger;
     width: inherit;
     margin-bottom: 20px;
 
@@ -12,8 +11,6 @@
 .projects{
     width: 100%;
     padding: 20px;
-    width: 90%;
-    padding: 30px;
    display: flex;
     flex-direction: column;
     gap: 14px;

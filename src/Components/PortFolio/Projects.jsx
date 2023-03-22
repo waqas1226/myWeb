@@ -35,11 +35,6 @@ function Projects(props) {
             sources: 'Lama dev Youtube channel',
             code_link:"https://github.com/waqas1226/Booking-App/",
             proj_view:"https://waqas1226.github.io/Booking-App/",
-            title: 'Hotel Booking App',
-            desc: 'Hotal Booking app is designed in React Js. In this project a beutiful UI is designed which contains multiple options including a search feature with daterange. Whenever a user write destination and select date range and click "search" button, related data fetched from MongoDb and displayed. User can check availability and reserve rooms after login. Also, Admin dashboard integrated with this for display the Hotels, Rooms and users and updating in database',
-            libraries: 'MERN stack, React Js, Material UI, React router dom, react-daterange, CSS',
-            sources: 'Lama dev Youtube channel',
-            coding: '60% self coded, 40% copied ',
             vid:'https://firebasestorage.googleapis.com/v0/b/inotebook-94faa.appspot.com/o/BookingApp.mp4?alt=media&token=a58e1086-b8ba-4160-949d-474d7637bd80'
         },
         {
@@ -50,8 +45,6 @@ function Projects(props) {
             code_link:"https://github.com/waqas1226/admin-dashboard/",
             proj_view:"https://waqas1226.github.io/admin-dashboard/",
             // vid:'https://firebasestorage.googleapis.com/v0/b/inotebook-94faa.appspot.com/o/Admin.mp4?alt=media&token=b173d0ca-2c94-4281-b0c7-3c157013d743'
-            coding: '60% copied, 40% self coded',
-            vid:'https://firebasestorage.googleapis.com/v0/b/inotebook-94faa.appspot.com/o/Admin.mp4?alt=media&token=b173d0ca-2c94-4281-b0c7-3c157013d743'
         },
         {
             title: 'Memorizing Game',
@@ -61,9 +54,6 @@ function Projects(props) {
             code_link:"https://github.com/waqas1226/memorizing_game/",
             proj_view:"https://waqas1226.github.io/memorizing_game/",
             // vid:'https://firebasestorage.googleapis.com/v0/b/inotebook-94faa.appspot.com/o/Memorize.mp4?alt=media&token=dcd529aa-2fd7-4fed-af3f-c396895b3a3d'
-            coding: '100% self coded',
-            accuracy: 'Almost 90%',
-            vid:'https://firebasestorage.googleapis.com/v0/b/inotebook-94faa.appspot.com/o/Memorize.mp4?alt=media&token=dcd529aa-2fd7-4fed-af3f-c396895b3a3d'
         },
         {
             title: 'Tetris Game',
@@ -74,9 +64,6 @@ function Projects(props) {
             code_link:"https://github.com/waqas1226/tetris-game/",
             proj_view:"https://waqas1226.github.io/tetris-game/",
             // vid:'https://firebasestorage.googleapis.com/v0/b/inotebook-94faa.appspot.com/o/Tetris.mp4?alt=media&token=49005005-4d0a-4575-b2c6-cbc205557634'
-            coding: '100% self coded',
-            accuracy: 'Almost 85%',
-            vid:'https://firebasestorage.googleapis.com/v0/b/inotebook-94faa.appspot.com/o/Tetris.mp4?alt=media&token=49005005-4d0a-4575-b2c6-cbc205557634'
         },
         {
             title: 'Calculator',
@@ -96,9 +83,6 @@ function Projects(props) {
             code_link:"https://github.com/waqas1226/NoteBook/",
             proj_view:"https://waqas1226.github.io/NoteBook/",
             // vid:'https://firebasestorage.googleapis.com/v0/b/inotebook-94faa.appspot.com/o/Calculator.mp4?alt=media&token=28d51d38-1cca-48d5-9b4e-7ca8a56a4a83'
-            coding: '100% self coded',
-            accuracy: 'Almost 95%',
-            vid:'https://firebasestorage.googleapis.com/v0/b/inotebook-94faa.appspot.com/o/Calculator.mp4?alt=media&token=28d51d38-1cca-48d5-9b4e-7ca8a56a4a83'
         }
     ]
     return (
@@ -123,11 +107,6 @@ function Projects(props) {
                                     {/* <img src={item.img} alt="pic" className="projPic" /> */}
                                     {item.vid && <h1>Project Video</h1>}
                                     {item.vid&&<video type="video/mp4" src={item.vid} width="95%" height="320" controls ></video>}
-                                    <div className="desc">Coding: <span className="o">{item.coding}</span> </div>
-                                    <div className="desc">Accuracy: <span className="o">{item.accuracy}</span> </div>
-                                    {/* <img src={item.img} alt="pic" className="projPic" /> */}
-                                    <h1>Project Video</h1>
-                                    <video type="video/mp4" src={item.vid} width="320" height="240" controls ></video>
                                 </Accordion.Body>
                             </Accordion.Item>
                         </Accordion>

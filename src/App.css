@@ -6,8 +6,9 @@
   width: 100vw;
   height: max-content;
   display: flex;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  box-sizing: border-box;
+  padding-top: 10px;
+  padding-bottom: 10px;
   color: wheat;
   overflow: hidden;
   background-color: rgb(51, 48, 48);
@@ -24,6 +25,12 @@
   .home {
     width: 100%;
   }
+  html{
+    font-size: 15px;
+  }
+  video{
+    width: 90%;
+  }
 }
 .o{
   color: orange;
@@ -38,16 +45,21 @@
 }
 
 .menu{
-  position: absolute;
+  position: fixed;
   right: 20px;
   top: 20px;
 border: 2px solid wheat;
 border-radius: 5px;
 width: 30px;
+height: 30px;
   cursor: pointer;
+  z-index: 10;
 }
 @media (min-width:800px) {
   .menu {
     display: none;
   }
+}
+.menu>img{
+  width: 100%;
 }

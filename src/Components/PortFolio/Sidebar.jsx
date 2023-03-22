@@ -1,15 +1,12 @@
 import React from 'react';
 import './Sidebar.css';
+import mypic from '../../My_Pic.jpg';
 
 function Sidebar({open}) {
-    const [imgUrl, setImgUrl]=React.useState('');
-    React.useEffect(()=>{
-        setImgUrl('https://firebasestorage.googleapis.com/v0/b/inotebook-94faa.appspot.com/o/My_Pic.jpg?alt=media&token=2921fe2f-9898-430c-946e-c678c5a87c2c');
-    },[])
     return (
         // <div  className='SbContainer' >
 <div className={open?'sbWrapper1':"sbWrapper"}>
-            <img src={imgUrl} alt="pic" className="profilepic" />
+            <img src={mypic} alt="pic" className="profilepic" />
 
             <h2 className="name">Muhammad Waqas</h2>
             <h5 className="title">Jr. Frontend developer</h5>
