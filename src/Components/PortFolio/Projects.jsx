@@ -17,8 +17,8 @@ function Projects(props) {
             desc: 'This is a fully Responsive project, designed with ReactJs, Tailwind CSS, Bootstrap',
             libraries: 'Tailwind CSS, React Js,React router dom',
             sources: 'naheed.pk',
-            code_link:"https://github.com/waqas1226/sportshop/",
-            proj_view:"https://waqas1226.github.io/sportshop/",
+            code_link:"https://github.com/waqas1226/sports-shop/",
+            proj_view:"https://waqas1226.github.io/sports-shop/",
         },
         {
             title: 'Nextcapital.com Homepage',
@@ -33,8 +33,8 @@ function Projects(props) {
             desc: 'Hotal Booking app is designed with MERN stack technologies. In this project a beutiful UI is designed which contains multiple options including a search feature with daterange. Whenever a user write destination and select date range and click "search" button, related data fetched from MongoDb and displayed. User can check availability and reserve rooms after login. Also, Admin dashboard integrated with this for display the Hotels, Rooms and users and updating in database',
             libraries: 'MERN stack, React Js, Material UI, React router dom, react-daterange, CSS',
             sources: 'Lama dev Youtube channel',
-            code_link:"https://github.com/waqas1226/Booking-App/",
-            proj_view:"https://waqas1226.github.io/Booking-App/",
+            code_link:"https://github.com/waqas1226/booking-app/",
+            proj_view:"https://waqas1226.github.io/booking-app/",
             vid:'https://firebasestorage.googleapis.com/v0/b/inotebook-94faa.appspot.com/o/BookingApp.mp4?alt=media&token=a58e1086-b8ba-4160-949d-474d7637bd80'
         },
         {

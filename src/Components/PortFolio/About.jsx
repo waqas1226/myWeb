@@ -21,7 +21,7 @@ function About(props) {
     <div className="myInfo">Address:<span className="o">House # 502K Al Rahman Garden phase 2 Lahore</span></div>
     <div className="myInfo">Github:<a className="o" href='https://github.com/waqas1226'>https://github.com/waqas1226</a></div>
     
-    <a href="https://firebasestorage.googleapis.com/v0/b/inotebook-94faa.appspot.com/o/My%20Resume.pdf?alt=media&token=6052bbb0-33af-4ce5-b4c2-3286c932369f" download="dff" className='download'>Download CV</a>
+    <a href="https://firebasestorage.googleapis.com/v0/b/inotebook-94faa.appspot.com/o/React%20Developer.pdf?alt=media&token=a963fbca-e2e9-4cae-a556-061dfcd14f66" download="dff" className='download'>Download CV</a>
   </div>
   <p>
 
